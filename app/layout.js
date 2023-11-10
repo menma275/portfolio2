@@ -1,8 +1,17 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "sakamura",
+  title: "Kusuke SAKAMURA",
   description: "Generative Artist, Web Developer, and Designer",
+  openGraph: {
+    title: "Kusuke SAKAMURA",
+    description: "Generative Artist, Web Developer, and Designer",
+  },
+  twitter: {
+    handle: "@menma275",
+    site: "@menma275",
+    cardType: "summary_large_image",
+  },
 };
 
 export default function RootLayout({ children }) {
