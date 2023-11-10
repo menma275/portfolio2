@@ -55,7 +55,7 @@ export default function Page({ params }) {
               <div className="flex justify-between ">
                 <h2 className="text-sm font-bold">Role in the team</h2>
                 <div className="flex flex-wrap gap-2">
-                  {post.team.map((role) => (                  <div className="px-2 py-0.5 rounded-md bg-[var(--font-primary)] text-[var(--bg-primary)] text-xs">
+                  {post.team.map((role) => (                  <div key={role} className="px-2 py-0.5 rounded-md bg-[var(--font-primary)] text-[var(--bg-primary)] text-xs">
                       {role}
                     </div>
                   ))}
