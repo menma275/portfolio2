@@ -8,6 +8,7 @@ export default function Projects(props) {
       <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-5">
         {props.list.map((content) => (
           <ProjectsCard
+            key={content.name}
             path={content.path}
             name={content.name}
             desc={content.desc}

@@ -15,7 +15,7 @@ export default function ProjectsCard(props) {
           </div>
           <div className="flex flex-wrap gap-2">
             {props.tags.map((tag) => (
-              <p className="text-xs text-white font-medium px-2 py-0.5 rounded-full bg-[var(--accent)]">
+              <p key={tag} className="text-xs text-white font-medium px-2 py-0.5 rounded-full bg-[var(--accent)]">
                 {tag}
               </p>
             ))}
