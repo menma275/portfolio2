@@ -53,7 +53,7 @@ const WorkList = [
   },
   {
     junle: "Web_Content",
-    name: "converse",
+    name: "conVerse",
     path: "converse",
     team: ["Design", "Development"],
     desc: "The project that preceded Gundi",
