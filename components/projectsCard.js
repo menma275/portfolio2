@@ -24,6 +24,7 @@ export default function ProjectsCard(props) {
             src = {imgPath}
             width = {300}
             height = {300}
+            alt = {props.name}
             className="absolute top-1/4 left-1/2 h-48 rounded-md shadow-my rotate-3 transition-all duration-500 group-hover:scale-105"
           />
         </div>

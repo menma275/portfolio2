@@ -37,6 +37,7 @@ export default function Page({ params }) {
           src={imgPath}
           width={600}
           height={600}
+          alt={post.name}
           className=" w-full max-w-[450px] mx-auto my-5 rounded-lg shadow-my"
         />
         <div className="my-3">

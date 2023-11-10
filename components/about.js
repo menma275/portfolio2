@@ -27,7 +27,7 @@ export default function About() {
   return (
     <div className="my-5">
       <div className="my-5 flex flex-row gap-5">
-        <Image src={portrait} className="w-[75px] h-[75px] rounded-full" />
+        <Image src={portrait} alt="Portrait" className="w-[75px] h-[75px] rounded-full" />
         <div className="m-0 my-auto">
           <h1 className="mb-1 text-lg font-bold">Kusuke SAKAMURA</h1>
           <div className="flex flex-wrap gap-3">
@@ -80,11 +80,8 @@ export default function About() {
       </div>
       <h1 className="mb-2 text-lg">About</h1>
       <p className="text-normal font-light">
-        Hi, I'm sakamura . I'm a generative artist, web developer, and designer.
-        I'm currently a student at the Tokyo Metropolitan University studying
-        Art Engineering. I'm interested in the intersection of art and
-        technology, and I'm always looking for new ways to express my
-        creativity.
+        Hi, I&apos;m Kusuke SAKAMURA. I&apos;m a generative artist, web developer, and designer.
+        I&apos;m currently a student at the Tokyo Metropolitan University studying Art Engineering. I&apos;m interested in the intersection of art and technology, and I&apos;m always looking for new ways to express mycreativity.
       </p>
       <div className="mt-3">
         {timeline.map((data, index) => (
