@@ -2,26 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap');
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --font-primary: #252525;
+  --font-secondary: #999999;
+  --bg-primary: #fafafa;
+  --bg-secondary: #ffffff;
+  --bg-primary-rgb: rgb(250, 250, 250);
+  --bg-secondary-rgb: rgb(255, 255, 255);
+  --accent: #F5B111;
+  --shadow: rgba(0, 0, 0, 0.05);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --font-primary: #f5f5f5;
+    --font-secondary: #999999;
+    --bg-primary: #252525;
+    --bg-secondary: #353535;
+    --bg-primary-rgb: rgb(37, 37, 37);
+    --bg-secondary-rgb: rgb(53, 53, 53);
+    --shadow: rgba(255, 255, 255, 0.05);
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: sans-serif;
+  color: var(--font-primary);
+  background: var(--bg-primary);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Space Mono', serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'Space Mono', serif;
+  font-weight: 400;
 }

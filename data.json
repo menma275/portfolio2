@@ -1,0 +1,67 @@
+{
+  "WorkList" : [
+    {
+      "junle": "Interactive_Art",
+      "name": "archeType",
+      "path": "/archetype",
+      "img": "/img/archetype.png",
+      "desc": "Interactive Art on the Web",
+      "tags": ["HTML", "CSS", "JavaScript", "Three.js"],
+      "url": "https://tmu-2023-net-1.github.io/sakamura/"
+    },
+    {
+      "junle": "Interactive_Art",
+      "name": "Soundscape",
+      "path": "/soundscape",
+      "img": "/img/Soundscape.png",
+      "desc": "Sound Visualization Installation Art",
+      "tags": ["Processing"],
+      "url": ""
+    },
+    {
+      "junle": "Interactive_Art",
+      "name": "enLightnment",
+      "path": "/enlightnment",
+      "img": "/img/enLightnment.png",
+      "desc": "Interactive art with Do Nothing",
+      "tags": ["Arduino", "Physical Stuff"],
+      "url": ""
+    },
+    {
+      "junle": "Web_Content",
+      "name": "Gundi",
+      "path": "/gundi",
+      "img": "/img/gundi.png",
+      "desc": "Decentralized Chat Space",
+      "tags": ["Next.js", "Tailwind CSS", "MongoDB"],
+      "url": "https://gundi.gitbook.io/gundi-decentralized-chat-space/",
+    },
+    {
+      "junle": "Web_Content",
+      "name": "conVerse",
+      "path": "/converse",
+      "img": "/img/converse.png",
+      "desc": "The project that preceded Gundi",
+      "tags": ["HTML", "CSS", "JavaScript", "MongoDB"],
+      "url": ""
+    },
+    {
+      "junle": "Web_Content",
+      "name": "有機的、無機的。",
+      "path": "/organic",
+      "img": "/img/nove2023.png",
+      "desc": "Website for our own events",
+      "tags": ["HTML", "CSS", "Three.js", "WebGL"],
+      "url": ""
+    },
+    {
+      "junle": "Web_Content",
+      "name": "Proof of X",
+      "path": "/proofofx",
+      "img": "/img/proofofX.png",
+      "desc": "Website for NFT event",
+      "tags": ["Next.js", "Chakra UI"],
+      "url": ""
+    }
+  ]
+}
