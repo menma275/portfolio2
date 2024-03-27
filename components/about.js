@@ -3,7 +3,6 @@ import portrait from "../public/img/me.png";
 
 import { FaXTwitter } from "react-icons/fa6";
 import { FaGithub, FaLinkedin, FaSquare } from "react-icons/fa";
-import Bluesky from "../public/img/BlueSky_logo.svg";
 
 const timeline = [
   {
@@ -57,7 +56,6 @@ export default function About() {
                 className="hover:text-[var(--accent)] transition-all duration-300 group relative"
               >
                 <FaSquare />
-                {/* <Image src={Bluesky} alt="BlueSky" className="w-5 h-5" /> */}
                 <span className="opacity-0 invisible group-hover:visible group-hover:opacity-100 text-xs absolute left-0 -bottom-6 px-1 py-0.5rounded-md text-[var(--font-secondary)] transition-all duration-300">
                   BlueSky
                 </span>
