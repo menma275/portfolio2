@@ -1,16 +1,46 @@
 import "./globals.css";
 
+const siteName = "Kusuke SAKAMURA";
+const siteDescription = "Generative Artist, Web Developer, and Designer";
+const url = "https://sakamura.dev";
+
 export const metadata = {
-  title: "Kusuke SAKAMURA",
-  description: "Generative Artist, Web Developer, and Designer",
+  title: {
+    default: siteName,
+    template: `%s - ${siteName}`,
+  },
+  description: description,
   openGraph: {
-    title: "Kusuke SAKAMURA",
-    description: "Generative Artist, Web Developer, and Designer",
+    title: siteName,
+    description,
+    url,
+    siteName,
+    locale: "ja_JP",
+    type: "website",
+    images: [
+      {
+        url: `${url}opengraph-image.jpg`,
+        width: 1200,
+        height: 630,
+        alt: siteName,
+      },
+    ],
   },
   twitter: {
-    handle: "@menma275",
+    card: "summary_large_image",
+    title: siteName,
+    description,
     site: "@menma275",
-    cardType: "summary_large_image",
+    creator: "@menma275",
+    images: {
+      url: `${url}og.jpg`,
+      width: 1200,
+      height: 630,
+      alt: siteName,
+    },
+  },
+  alternates: {
+    canonical: url,
   },
 };
 
