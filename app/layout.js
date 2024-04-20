@@ -33,7 +33,7 @@ export const metadata = {
     site: "@menma275",
     creator: "@menma275",
     images: {
-      url: `${url}og.jpg`,
+      url: `${url}opengraph-image.jpg`,
       width: 1200,
       height: 630,
       alt: siteName,
