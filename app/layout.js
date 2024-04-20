@@ -1,7 +1,7 @@
 import "./globals.css";
 
 const siteName = "Kusuke SAKAMURA";
-const siteDescription = "Generative Artist, Web Developer, and Designer";
+const description = "Generative Artist, Web Developer, and Designer";
 const url = "https://sakamura.dev/";
 
 export const metadata = {
