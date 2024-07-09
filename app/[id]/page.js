@@ -51,7 +51,7 @@ export default function Page({ params }) {
         </div>
         <div>
           {post.team.length !== 0 &&
-            <div className="p-3 rounded-xl bg-white dark:bg-neutral-700 bg-opacity-30 border border-[var(--bg-secondary)]">
+            <div className="p-3 rounded-xl bg-white bg-opacity-30 border border-[var(--bg-secondary)]">
               <div className="flex justify-between ">
                 <h2 className="text-sm font-bold">Role in the team</h2>
                 <div className="flex flex-wrap gap-2">

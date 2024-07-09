@@ -1,9 +1,6 @@
-// icons
-import { FaXTwitter } from "react-icons/fa6";
-import { FaGithub, FaLinkedin, FaSquare } from "react-icons/fa";
-
-import { menuList } from "../components/list";
-import Link from "next/link";
+import { FaXTwitter, FaBluesky } from "react-icons/fa6";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { SiReaddotcv } from "react-icons/si";
 
 export default function Header() {
   return (
@@ -22,12 +19,21 @@ export default function Header() {
           </span>
         </a>
         <a
-          href="https://bsky.app/profile/sakamura.bsky.social"
+          href="https://bsky.app/profile/sakamura.dev"
           className="hover:text-[var(--accent)] transition-all duration-300 group relative"
         >
-          <FaSquare />
+          <FaBluesky />
           <span className="opacity-0 invisible group-hover:visible group-hover:opacity-100 text-xs absolute left-0 -bottom-6 px-1 py-0.5rounded-md text-[var(--font-secondary)] transition-all duration-300">
             BlueSky
+          </span>
+        </a>
+        <a
+          href="https://posts.cv/sakamura"
+          className="hover:text-[var(--accent)] transition-all duration-300 group relative"
+        >
+          <SiReaddotcv />
+          <span className="opacity-0 invisible group-hover:visible group-hover:opacity-100 text-xs absolute left-0 -bottom-6 px-1 py-0.5rounded-md text-[var(--font-secondary)] transition-all duration-300">
+            Posts.cv
           </span>
         </a>
         <a

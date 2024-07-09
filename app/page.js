@@ -1,5 +1,3 @@
-
-import Link from "next/link";
 import About from "@/components/about";
 import Projects from "@/components/projects";
 import GenArts from "@/components/genarts";

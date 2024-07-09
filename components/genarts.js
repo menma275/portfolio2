@@ -12,7 +12,7 @@ export default function GenArts() {
 
       <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-5">
         <a
-          className="group rounded-xl p-5 bg-white dark:bg-neutral-700 bg-opacity-30 border border-[var(--bg-secondary)] hover:border-[var(--font-secondary)] transition-all duration-500 shadow-my"
+          className="group rounded-xl p-5 bg-white bg-opacity-30 border border-[var(--bg-secondary)] hover:border-[var(--font-secondary)] transition-all duration-500 shadow-my"
           href="https://www.fxhash.xyz/u/sakamura"
         >
           <h2 className="font-bold">fx(hash)</h2>
@@ -21,7 +21,7 @@ export default function GenArts() {
           </p>
         </a>
         <a
-          className="rounded-xl p-5 bg-white dark:bg-neutral-700 bg-opacity-30 border border-[var(--bg-secondary)] hover:border-[var(--font-secondary)] transition-all duration-500 shadow-my"
+          className="rounded-xl p-5 bg-white bg-opacity-30 border border-[var(--bg-secondary)] hover:border-[var(--font-secondary)] transition-all duration-500 shadow-my"
           href="https://openprocessing.org/user/311225?view=sketches&o=1"
         >
           <h2 className="font-bold">OpenProcessing</h2>

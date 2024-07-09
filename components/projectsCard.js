@@ -1,5 +1,3 @@
-import path from "path";
-
 import Image from "next/image";
 
 export default function ProjectsCard(props) {
@@ -7,7 +5,7 @@ export default function ProjectsCard(props) {
   const imgPath = "/img/" + img;
   return (
     <a href={props.path}>
-      <div className="group relative flex max-w-xl h-56 mx-auto overflow-hidden rounded-xl bg-white dark:bg-neutral-700 bg-opacity-30 border border-[var(--bg-secondary)] hover:border-[var(--font-secondary)] transition-all duration-500 shadow-my">
+      <div className="group relative flex max-w-xl h-56 mx-auto overflow-hidden rounded-xl bg-white bg-opacity-30 border border-[var(--bg-secondary)] hover:border-[var(--font-secondary)] transition-all duration-500 shadow-my">
         <div className="flex flex-col w-1/2 h-full p-5 justify-between ">
           <div>
             <h1 className="mb-1 text-md">{props.name}</h1>
