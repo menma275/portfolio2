@@ -20,7 +20,6 @@ export default function FootPrint() {
             } else {
                 await set(countRef, 0);
             }
-            console.log("count" + count);
         }
         fetchCount();
     }, [])
