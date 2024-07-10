@@ -1,6 +1,7 @@
 import About from "@/components/about";
 import Projects from "@/components/projects";
 import GenArts from "@/components/genarts";
+import FootPrint from "@/components/footprint";
 import fsPromises from "fs/promises";
 import path from "path";
 
@@ -10,11 +11,11 @@ export default async function Home() {
   const filePath = path.join(process.cwd(), "data.json");
   const data = await fsPromises.readFile(filePath);
   console.log(data);
-  const works = data.WorkList;
 
   return (
     <main>
       <About />
+      <FootPrint />
       <Projects
         title={"Interactive Art"}
         list={WorkList.filter((work) => work.junle === "Interactive_Art")}

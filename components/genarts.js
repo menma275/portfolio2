@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function GenArts() {
   return (
-    <div className="my-5 pt-5 border-t border-[var(--font-secondary)]">
+    <div className="my-16">
       <h1 className="mb-2 text-lg">Generative Art</h1>
       <p className="text-normal font-light">
         I create Generative Art with JavaScript and WebGL and publish it as
