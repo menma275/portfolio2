@@ -53,7 +53,7 @@ export default function FootPrint() {
     };
 
     return (
-        <div
+        <motion.div
           className="mt-12 w-full rounded-xl p-5 bg-gradient-to-br from-white via-amber-50 to-orange-100 bg-opacity-10 border-2 border-white transition-all duration-500 cursor-pointer relative overflow-hidden"
           onClick={countUp}
         >
@@ -63,6 +63,6 @@ export default function FootPrint() {
             </div>
             <motion.span animate={spanAnimation} className="text-4xl z-10 absolute right-5 -bottom-14 -rotate-6">👋</motion.span>
             <span className="text-6xl z-0 text-white absolute -right-2 -bottom-4 font-bold">{count}</span>
-        </div>
+        </motion.div>
     );
 }

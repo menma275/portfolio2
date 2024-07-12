@@ -58,7 +58,7 @@ const WorkList = [
     team: ["Development", "Design"],
     desc: "Website for Blockchain event",
     tags: ["Next.js", "Tailwind CSS"],
-    url: "https://pox.exhibit.website/",
+    url: "",
     outlineJA:
       "本Webサイトはブロックチェーンに主眼を置いた「Proof of X」のために制作されました。\nこのWebサイトはイベントの概要や出展作品を紹介するなど、基本的な情報を提供することを目的としています。協力イベントであるDIG SHIBUYAのデザインコンセプトからインスピレーションを受け、直接的でない形でデザインに反映させました。",
     outlineEN:
@@ -141,7 +141,7 @@ const WorkList = [
     team: ["Development"],
     desc: "Website for Blockchain event",
     tags: ["Next.js", "Chakra UI"],
-    url: "https://pox.exhibit.website/",
+    url: "",
     outlineJA:
       "本Webサイトはブロックチェーンに主眼を置いた「Proof of X」のために制作されました。\nこのWebサイトはイベントの概要や出展作品を紹介するなど、基本的な情報を提供することを目的としています。ファーストビューには変化し続けるメインビジュアルが配置され、強力な印象を与えます。本Webページは数人のメンバーで作成され、絶えず更新される情報とコンテンツの対応を継続して行いました。",
     outlineEN:

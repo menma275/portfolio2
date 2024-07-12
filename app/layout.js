@@ -4,6 +4,8 @@ const siteName = "Kusuke SAKAMURA";
 const description = "Generative Artist, Web Developer, and Designer";
 const url = "https://sakamura.dev/";
 
+import { Analytics } from '@vercel/analytics/react'
+
 export const metadata = {
   title: {
     default: siteName,
@@ -47,6 +49,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Analytics />
       <body className="relative max-w-3xl mx-auto px-5">
           <div className="w-[300px] sm:w-[500px] aspect-square rounded-full absolute -top-1/4 left-0 -z-10 blur-3xl bg-gradient-to-tr from-amber-100 to-rose-100 bg-opacity-50"></div>
           <div className="w-[300px] sm:w-[400px] aspect-square rounded-full absolute top-0 right-0 -z-10 blur-3xl bg-gradient-to-r from-amber-100 to-rose-100"></div>
