@@ -1,9 +1,6 @@
 import Image from "next/image";
 import portrait from "../public/img/me.png";
-
-import { FaXTwitter, FaBluesky } from "react-icons/fa6";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { SiReaddotcv } from "react-icons/si";
+import SocialMedia from "./SocialMedia";
 
 const timeline = [
   {
@@ -33,62 +30,16 @@ export default function About() {
           alt="Portrait"
           className="w-[75px] h-[75px] rounded-full"
         />
-        <div className="m-0 my-auto">
+        <div className="m-0 w-full my-auto">
           <h1 className="mb-1 text-lg font-bold">Kusuke SAKAMURA</h1>
-          <div className="flex flex-wrap gap-3">
+          <div className="flex w-full justify-between gap-3">
             <div>
               <p className="text-sm font-light">Tokyo, Japan</p>
               <p className="text-sm font-light whitespace-normal">
                 Generative Art / Web Develpoment, Design
               </p>
             </div>
-            <div className="flex mt-auto mb-0 gap-3 text-xl">
-              <a
-                href="https://twitter.com/menma275"
-                className="hover:text-[var(--accent)] transition-all duration-300 group relative"
-              >
-                <FaXTwitter />
-                <span className="opacity-0 invisible group-hover:visible group-hover:opacity-100 text-xs absolute left-0 -bottom-6 px-1 py-0.5rounded-md text-[var(--font-secondary)] transition-all duration-300">
-                  Twitter
-                </span>
-              </a>
-              <a
-                href="https://bsky.app/profile/sakamura.dev"
-                className="hover:text-[var(--accent)] transition-all duration-300 group relative"
-              >
-                <FaBluesky />
-                <span className="opacity-0 invisible group-hover:visible group-hover:opacity-100 text-xs absolute left-0 -bottom-6 px-1 py-0.5rounded-md text-[var(--font-secondary)] transition-all duration-300">
-                  BlueSky
-                </span>
-              </a>
-              <a
-                href="https://posts.cv/sakamura"
-                className="hover:text-[var(--accent)] transition-all duration-300 group relative"
-              >
-                <SiReaddotcv />
-                <span className="opacity-0 invisible group-hover:visible group-hover:opacity-100 text-xs absolute left-0 -bottom-6 px-1 py-0.5rounded-md text-[var(--font-secondary)] transition-all duration-300">
-                  Posts.cv
-                </span>
-              </a>
-              <a
-                href="https://github.com/menma275"
-                className="hover:text-[var(--accent)] transition-all duration-300 group relative"
-              >
-                <FaGithub />
-                <span className="opacity-0 invisible group-hover:visible group-hover:opacity-100 text-xs absolute left-0 -bottom-6 px-1 py-0.5rounded-md text-[var(--font-secondary)] transition-all duration-300">
-                  GitHub
-                </span>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/kusuke-sakamura-09544325a/"
-                className="hover:text-[var(--accent)] transition-all duration-300 group relative"
-              >
-                <FaLinkedin />
-                <span className="opacity-0 invisible group-hover:visible group-hover:opacity-100 text-xs absolute left-0 -bottom-6 px-1 py-0.5rounded-md text-[var(--font-secondary)] transition-all duration-300">
-                  LinkedIn
-                </span>
-              </a>
-            </div>
+            <SocialMedia />
           </div>
         </div>
       </div>

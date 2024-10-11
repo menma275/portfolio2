@@ -53,6 +53,23 @@ const WorkList = [
   // web
   {
     junle: "Web_Content",
+    name: "IMDb to Notion",
+    path: "imdb_notion",
+    team: [],
+    desc: "Chrome Extension for IMDb to Notion",
+    tags: ["CRXJS", "Notion API"],
+    url: "https://github.com/menma275/imdb_notion",
+    outlineJA:
+      "鑑賞した映画の情報や感想をNotionで管理するためのChrome Extension。\nIMDbの映画ページから情報を取得し、ポップアップウィンドウからコメントやレーティングをNotionに自動で記録することができます。",
+    outlineEN:
+      "Chrome Extension for managing movie information and impressions watched in Notion.\nYou can get information from the IMDb movie page and automatically record comments and ratings in Notion.",
+    thoughtJA:
+      "IMDbや他のサービスの提供する映画の鑑賞記録のためのサービスでは他のユーザの情報がノイズになったり自分の残したい情報が記録できなかったりと不自由が多かったため、Notionのデータベースに記録するという形で情報の操作性と自由度の高い映画の鑑賞記録用のシステムを作成しました。",
+    thoughtEN:
+      "Since the services provided by IMDb and other services for recording movie viewing records were inconvenient due to noise from other users' information and the inability to record the information I wanted to leave, I created a movie viewing record system with high operability and freedom of information by recording it in a Notion database.",
+  },
+  {
+    junle: "Web_Content",
     name: "Proof of X in DIG SHIBUYA",
     path: "proofofx_shibuya",
     team: ["Development", "Design"],

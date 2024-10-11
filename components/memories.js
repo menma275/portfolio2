@@ -1,6 +1,7 @@
 import Header from "../components/header";
 import UploadImage from "./UploadImage";
 import DisplayImage from "./DisplayImage";
+import DisplayAsAlbum from "./DisplayAsAlbum";
 
 export default function Memories({ searchParams }) {
     const showUpload = searchParams.upload === process.env.UPLOAD_KEY;
@@ -16,7 +17,8 @@ export default function Memories({ searchParams }) {
                     ))}
                 </div> */}
                 {showUpload && <UploadImage />}
-                <DisplayImage />
+                {/* <DisplayImage /> */}
+                <DisplayAsAlbum />
             </div>
         </div>
     );
