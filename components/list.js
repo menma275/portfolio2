@@ -53,6 +53,23 @@ const WorkList = [
   // web
   {
     junle: "Web_Content",
+    name: "草木塔",
+    path: "somokuto",
+    team: [],
+    desc: "Website for read 草木塔",
+    tags: ["Vite", "Tailwind CSS"],
+    url: "https://somokuto.vercel.app/",
+    outlineJA:
+      " 種田山頭火の詩集「草木塔」を読むためのWebサイト。機能はスクロールおよびタッチによる前後への移動のみ。詩の情報は青空文庫より引用。 ",
+    outlineEN:
+      "A website for reading Taneda Santōka's poetry collection *Sōmoku-tō* (*Grass and Tree Pagoda*). The only functionalities are moving forward and backward through the poems using scroll or touch gestures. The poetry information is sourced from Aozora Bunko.",
+    thoughtJA:
+      "自身が好きな詩集を気軽に、余計な情報を排して読みたいという動機から制作。操作は主に1つずつ閲覧する方法を取っているが、700を超える詩を自由に行き来できるようにRandomボタンを設置し思いがけない場所に移動できるようになっている。localStorageに現在の位置を保存することで再び訪問した際に前回の続きから読めるようになっている。",
+    thoughtEN:
+      "Created out of a desire to read a favorite poetry collection freely and without unnecessary information, this website allows readers to focus solely on the poems. While the main navigation displays one poem at a time, a 'Random' button lets users jump to unexpected places among the 700+ poems. The current position is saved in localStorage, so readers can continue from where they left off when revisiting the site. ",
+  },
+  {
+    junle: "Web_Content",
     name: "IMDb to Notion",
     path: "imdb_notion",
     team: [],
