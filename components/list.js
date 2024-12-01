@@ -53,6 +53,23 @@ const WorkList = [
   // web
   {
     junle: "Web_Content",
+    name: "Spotify Analyzer",
+    path: "spotify_analyzer",
+    team: [],
+    desc: "Analyzer for Spotify",
+    tags: ["Next.js", "Tailwind CSS", "Spotify API"],
+    url: "https://sptf-anlz.vercel.app/",
+    outlineJA:
+      "Spotify APIを使用したSptofiy上での視聴履歴の分析が可能なWebページ。余分なエレメントを排した、必要十分な構成とした。",
+    outlineEN:
+      "A web page for analyzing listening history on Spotify using the Spotify API, designed with a minimalistic structure that includes only the necessary elements.",
+    thoughtJA:
+      "Spotifyの提供するAPIを使用したビジュアライゼーションを構想していたが、使用予定のAPIの提供が終了したことに伴い、現在使用可能なAPIとそれに付随するコンポーネントを暫定的に表示している。カラーテーマは公式のデザインアセットから使用し、一覧性とSpotifyユーザーへの親和性を重視した。",
+    thoughtEN:
+      "I had been planning a visualization using Spotify's API, but with the discontinuation of the intended API, I am currently displaying available APIs and their associated components as a temporary measure. The color theme is based on Spotify's official design assets, prioritizing readability and compatibility with Spotify users.",
+  },
+  {
+    junle: "Web_Content",
     name: "草木塔",
     path: "somokuto",
     team: [],
