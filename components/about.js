@@ -32,7 +32,7 @@ export default function About() {
         />
         <div className="m-0 w-full my-auto">
           <h1 className="mb-1 text-lg font-bold">Kusuke SAKAMURA</h1>
-          <div className="flex w-full justify-between gap-3">
+          <div className="flex flex-wrap w-full justify-between gap-3">
             <div>
               <p className="text-sm font-light">Tokyo, Japan</p>
               <p className="text-sm font-light whitespace-normal">

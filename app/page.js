@@ -20,13 +20,15 @@ export default async function Home() {
         title={"Interactive Art"}
         list={WorkList.filter((work) => work.junle === "Interactive_Art")}
       >
-        I create interactive art that is natural, easy to understand, and makes you want to touch it!
+        I create interactive art that is natural, easy to understand, and makes
+        you want to touch it!
       </Projects>
       <Projects
         title={"Web Contents"}
         list={WorkList.filter((work) => work.junle === "Web_Content")}
       >
-        I design and develop websites and web applications, and am mainly interested in front-end development.
+        I design and develop websites and web applications, and am mainly
+        interested in front-end development.
       </Projects>
       <GenArts />
     </main>
