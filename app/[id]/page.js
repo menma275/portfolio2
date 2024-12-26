@@ -1,14 +1,10 @@
-import Link from "next/link";
 import { WorkList } from "@/components/list";
 import Image from "next/image";
 import Header from "../../components/header";
-import img from "../../public/img/archetype.png";
-import { TbExternalLink } from "react-icons/tb";
-import { FaArrowRight } from "react-icons/fa";
 import { HiArrowNarrowRight } from "react-icons/hi";
 
 export default function Page({ params }) {
-  const post = WorkList.find((work)=>work.path === params.id)
+  const post = WorkList.find((work) => work.path === params.id)
   const img = post.path + ".png"
   const imgPath = "/img/" + img
   console.log(imgPath);
@@ -21,11 +17,11 @@ export default function Page({ params }) {
             <h1 className="mb-2 text-lg">{post.name}</h1>
           </div>
           <div>
-            {post.url && 
+            {post.url &&
               <a href={post.url}>
-                <button className="text-sm font-medium text-[var(--accent)]  px-3 py-1 group">
+                <button className="text-sm font-medium  px-3 py-1 group bg-white bg-opacity-30 text-[var(--accent)] border border-[var(--bg-secondary)] hover:border-[var(--font-secondary)] transition-all duration-500 shadow-my rounded-lg">
                   <div className="flex items-center gap-1">
-                    Visit
+                    Visit Site
                     <HiArrowNarrowRight className="group-hover:translate-x-1/4 duration-500 text-md" />
                   </div>
                 </button>
@@ -33,13 +29,17 @@ export default function Page({ params }) {
             }
           </div>
         </div>
-        <Image
-          src={imgPath}
-          width={600}
-          height={600}
-          alt={post.name}
-          className=" w-full max-w-[450px] mx-auto my-5 rounded-lg shadow-my"
-        />
+        <a
+          href={post.url}
+        >
+          <Image
+            src={imgPath}
+            width={600}
+            height={600}
+            alt={post.name}
+            className=" w-full max-w-[450px] mx-auto my-5 rounded-lg shadow-my"
+          />
+        </a>
         <div className="my-3">
           <div className="flex flex-wrap gap-2">
             {post.tags.map((tag) => (
@@ -55,9 +55,9 @@ export default function Page({ params }) {
               <div className="flex justify-between ">
                 <h2 className="text-sm font-bold">Role in the team</h2>
                 <div className="flex flex-wrap gap-2">
-                  {post.team.map((role) => (                  <div key={role} className="px-2 py-0.5 rounded-md bg-[var(--font-primary)] text-[var(--bg-primary)] text-xs">
-                      {role}
-                    </div>
+                  {post.team.map((role) => (<div key={role} className="px-2 py-0.5 rounded-md bg-[var(--font-primary)] text-[var(--bg-primary)] text-xs">
+                    {role}
+                  </div>
                   ))}
                 </div>
               </div>

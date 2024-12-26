@@ -15,18 +15,6 @@
   --shadow: rgba(0, 0, 0, 0.05);
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --font-primary: #f5f5f5;
-    --font-secondary: #999999;
-    --bg-primary: #252525;
-    --bg-secondary: #353535;
-    --bg-primary-rgb: rgb(37, 37, 37);
-    --bg-secondary-rgb: rgb(53, 53, 53);
-    --shadow: rgba(255, 255, 255, 0.05);
-  }
-} */
-
 body {
   font-family: sans-serif;
   color: var(--font-primary);

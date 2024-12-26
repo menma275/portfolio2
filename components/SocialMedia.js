@@ -22,7 +22,7 @@ const SocialLink = ({ href, Icon, label }) => (
 
 export default function SocialMedia() {
   return (
-    <div className="flex m-0 p-0 gap-3 text-xl items-center">
+    <div className="flex flex-wrap m-0 p-0 gap-3 text-xl items-center">
       {socialLinks.map((props) => (
         <SocialLink key={props.href} {...props} />
       ))}

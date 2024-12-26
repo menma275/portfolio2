@@ -24,6 +24,7 @@ const timeline = [
 export default function About() {
   return (
     <div className="my-5">
+      <h1 className="mb-1 text-lg font-bold">Kusuke SAKAMURA</h1>
       <div className="my-5 flex flex-row gap-5">
         <Image
           src={portrait}
@@ -31,7 +32,6 @@ export default function About() {
           className="w-[75px] h-[75px] rounded-full"
         />
         <div className="m-0 w-full my-auto">
-          <h1 className="mb-1 text-lg font-bold">Kusuke SAKAMURA</h1>
           <div className="flex flex-wrap w-full justify-between gap-3">
             <div>
               <p className="text-sm font-light">Tokyo, Japan</p>
