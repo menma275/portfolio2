@@ -11,7 +11,7 @@ export default function Page({ params }) {
   return (
     <div>
       <Header />
-      <div className="mt-20">
+      <div className="mt-24">
         <div className="flex justify-between">
           <div>
             <h1 className="mb-2 text-lg">{post.name}</h1>
