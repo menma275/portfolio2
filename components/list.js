@@ -51,6 +51,24 @@ const WorkList = [
       "This work was created as a miniature of light as visual information and sound as auditory information, aiming to make a small world appear in front of you by standing in front of this work. \n Although it is an interactive art of sound and light, it does not encourage the viewer to take active action. The viewer can participate in the work just by walking in front of it, and there is no need to make a special gesture. It is similar to the fact that we experience them by simply existing without taking any special action against the light and sound that exist in the world.",
   },
   // web
+  //
+  {
+    junle: "Web_Content",
+    name: "Flow Album",
+    path: "flow-album",
+    team: [],
+    desc: "Photo album using 3D space",
+    tags: ["Next.js", "Tailwind CSS", "Firebase"],
+    url: "https://flow-album.vercel.app/",
+    outlineJA:
+      "3D空間を使用した写真アルバムとしてのWebサイト。平面グリッドが一般的なアルバムに対してXYZ方向に写真を配置し、自由にズームインアウト、クリックによって詳細を見ることが可能。",
+    outlineEN:
+      "Web site as a photo album using 3D space. In contrast to albums that generally use a flat grid, photos are arranged in XYZ orientation and can be freely zoomed in and out, and details can be viewed by clicking on them.",
+    thoughtJA:
+      "一般的なアルバムは日付順、グリッド状に写真を配置するが、これは必ずしも私たちの思い出の記憶の仕方と同じではないと考えた。写真を3D空間に自由に配置することによって記憶を遡る体験を表現。写真の配置はランダムと撮影時の位置情報を用いた2種類を閲覧可能で、これらはアニメーションを持って切り替わり、単一の写真としてでなくすべての写真を繋がりをもった群として見ることができる。",
+    thoughtEN:
+      "Although typical albums arrange photos in date order and in a grid pattern, we thought that this is not necessarily the same as the way we remember our memories. This project expresses the experience of going back in memory by freely arranging photos in a 3D space. The photos can be viewed randomly or by using the location information at the time the photos were taken, and they can be animated and switched, allowing the viewer to see all the photos as a group with connections rather than as a single photo.",
+  },
   {
     junle: "Web_Content",
     name: "Spotify Analyzer",
